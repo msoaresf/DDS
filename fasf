@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sistema de ensino</title>
+        <link href="css/default.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h2>SISTEMA DE ENSINO</h2>
+        
+        <form method="get" action="index.php" >
+        
+            <table>
+
+
+            <tr>
+
+                <td>Matricula (numero):</td>
+                <td>
+                    <!--int matricula = 100-->
+                    <input type="number" name="matricula" placeholder="matricula" >   
+
+                </td>
+                <td></td>
+
+            </tr>         
+
+            <tr>
+
+                <td>Nome:</td>
+                <td>
+                    <!--int matricula = 100-->
+                    <input type="text" name="nome" placeholder="Nome" >   
+
+                </td>
+                <td></td>
+                <td></td>
+            </tr>            
+        </tr>            
+        <tr>
+
+            <td>Turma</td>
+            <td>
+                <!--int matricula = 100-->
+                <input type="radio" name="turma" value="413">413   
+                <input type="radio" name="turma" value="423">423   
+                <input type="radio" name="turma" value="433">433
+
+                <br/>
+
+                <input type="radio" name="turma" value="411">411   
+                <input type="radio" name="turma" value="412" >412   
+                <input type="radio" name="turma" value="413" >413   
+
+            </td>
+            <td></td>
+            <td></td>
+        <tr>
+
+            <td>Turma</td>
+            <td>
+                <!--int matricula = 100-->
+                <select name="estado">
+                    <option value="">Selecione um estado</option>
+                    <option value="rs">RS</option>
+                    <option value="rj">RJ</option>
+                    <option value="sc">SC</option>
+
+            </td>      
+            <td></td>
+            <td></td>
+        </tr>            
+               
+        <tr>
+
+            <td></td>
+            <td>
+                <input type="submit"value="Enviar">
+                <input type="reset"value="Limpar dados">
+                
+                
+                
+                
+                <!--int matricula = 100-->
+            </td>      
+            <td></td>
+            <td></td>
+        </tr>            
+               
+
+
+
+</table>
+
+
+
+<?php
+if($-GET){
+    $nome = $_GET('nome');
+    echo("seu nome e: ".$nome);
+}
+?>
+        </form>
+</body>
+</html>
