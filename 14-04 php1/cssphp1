@@ -1,0 +1,23 @@
+/*Tags*/
+body{
+    width: 100%;
+    min-width: 640px;
+    font-family: courier new;
+    
+}
+h2{
+    text-align: center;
+}
+
+
+/*Classes*/
+.alert{
+    width: 98%;
+    border: 2px solid;
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: red;
+    
+    
+}
