@@ -1,19 +1,17 @@
+/*Tags*/
 body{
-
-
-background-color: #fccfac;
-font-family: courier new;
-
-
+    width: 100%;
+    min-width: 640px;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    color: #333333;
+    background-color: #EBEBEB;
+ 
 }
-img{
-position: relative;
-left:50% ;
-margin-top: -50%;
 
-
-
-
-
-
+h2{
+    
 }
+
+
+/*Classes*/
